@@ -39,12 +39,12 @@ namespace MeuProjetoMinimal
                 Console.WriteLine(); // linha em branco entre os menus
             }
         }
-
         private void Encerrar()
         {
-            Console.WriteLine("Obrigado por usar o sistema!");
+            Console.WriteLine("Encerrando o programa...");
             Environment.Exit(0);
         }
+
     }
 }
 

@@ -1,12 +1,16 @@
+// Importação de namespaces necessários para funcionalidades básicas, coleções e tarefas
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
+
+// Namespace do projeto, utilizado para organizar as classes
 namespace MeuProjetoMinimal
 {
-
+    // Classe responsável pelas operações matemáticas
     public class Calculadora
     {
+        // Método matemático para operação: somar, subtrair, multiplicar, dividir, potencia, seno, cosseno, tangente e raiz quadrada
         public void Somar(int a, int b)
         {
             Console.WriteLine($"Somando {a} + {b} = {a + b}");
